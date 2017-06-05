@@ -1,0 +1,20 @@
+#Thanks Qazi!#
+
+import datetime
+
+
+birthdayDay = int(input('Your birthday day?: '))
+birthdayMonth = int (input('Your birthday month?: '))
+birthdayYear = int(input('Your birthday year?: '))
+name = str(input('Name?: '))
+
+
+mybday = datetime.date(birthdayYear, birthdayMonth, birthdayDay)
+
+days_old = datetime.date.today()- mybday
+print(name)
+print('You are')
+print (days_old)
+
+
+input('Press ENTER to exit')
